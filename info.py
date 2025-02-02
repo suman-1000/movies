@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', '@neu_autofilter_bot')
 API_ID = int(environ.get('API_ID', '26078268'))
 API_HASH = environ.get('API_HASH', 'fd0442eaf9e376706050dc8cada3ca4d')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7597015923:AAEd8No4C9KEwRS2xCL7uk39IKKVLfQ_HHE')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7597015923:AAH0JyKZbjsGgwvx1ODKaHS7AWNnSZucaY0')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6328044100').split()]
@@ -25,8 +25,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/movies_request1
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002380079182').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sumangayen1000:y4WipxQtAnTW3eQf@cluster0.7omv1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://movie1:movie1@movie1.ifhuc.mongodb.net/?retryWrites=true&w=majority&appName=movie1")
+DATABASE_NAME = environ.get('DATABASE_NAME', "movie1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
