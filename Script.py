@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/movies_bangla_official">Movies bot</a>」</b>"""
+    FILE_CAPTION = """<b>🎬 {file_name} 🔅 {file_size}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/movies_bangla_official">Movies bot</a>」</b>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
