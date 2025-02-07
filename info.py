@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', '@neu_autofilter_bot')
 API_ID = int(environ.get('API_ID', '26078268'))
 API_HASH = environ.get('API_HASH', 'fd0442eaf9e376706050dc8cada3ca4d')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7597015923:AAH0JyKZbjsGgwvx1ODKaHS7AWNnSZucaY0')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6328044100').split()]
